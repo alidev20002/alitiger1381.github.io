@@ -1,0 +1,158 @@
+body {
+	background-image: linear-gradient(180deg,#0e0513,#6b1471);*/
+	height: 100%;
+	background-repeat: no-repeat;
+}
+.section1 {
+	position: static; 
+	height: auto;
+	display: block;
+	overflow: auto;
+}
+
+.header {
+	position: fixed;
+	display: block;
+	padding: 20px;
+	z-index: 5;
+	width: 90%;
+
+}
+
+.logo {
+	float: left;
+	color: white;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+.fa-bars {
+	float: right;
+	color: white;
+	align-content: right;
+}
+
+.welcome {
+	margin-top: 20vh;
+	color: yellow;
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 40px;
+	text-align: center;
+}
+
+.section2 {
+	padding: 30px;
+	position: static;
+	display: block;
+	height: 80vh;
+}
+
+.container {
+	background-color: black;
+	position: static;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px 30px black;
+}
+
+.container div {
+	color: white;
+	width: 300px;
+	margin: 20px;
+	display: none;
+}
+
+.user {
+	max-width: 25vw;
+	height: 40vh;
+	margin-bottom: 30px;
+	border-radius: 10px;
+
+}
+
+.section3 {
+	position: static;
+	display: block;
+	padding: 30px;
+	height: 50vh;
+	margin-top: 10vh;
+}
+
+.tag1 {
+	background-color: white;
+	padding: 10px;
+	padding-left: 20px;
+	border-left: solid 5px red;
+	margin: 10px;
+	display: none;
+}
+
+.tag2 {
+	background-color: white;
+	padding: 10px;
+	padding-left: 20px;
+	border-left: solid 5px blue;
+	margin: 10px;
+	display: none;
+}
+
+.tag3 {
+	background-color: white;
+	padding: 10px;
+	padding-left: 20px;
+	border-left: solid 5px yellow;
+	margin: 10px;
+	display: none;
+}
+
+.section4 {
+	padding: 30px;
+	position: static;
+	display: block;
+	height: 80vh;
+	text-align: center;
+}
+
+.circle {
+	background-image: url("user1.jpg");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	position: block;
+	border-radius: 25px;
+}
+
+.anim {
+	animation: fadein 1s;
+	-o-animation: fadein 2s;
+	animation-duration: 3s;
+}
+
+.anim1 {
+	animation: fadein 2s;
+	-o-animation: fadein 2s;
+	animation-duration: 4s;
+}
+
+.anim2 {
+	animation: fadein 3s;
+	-o-animation: fadein 2s;
+	animation-duration: 5s;
+}
+
+.anim3 {
+	animation: fadein 4s;
+	-o-animation: fadein 2s;
+	animation-duration: 6s;
+}
+
+ @keyframes fadein {
+	 0% { opacity:0; }
+    
+    100% { opacity:1; }
+}

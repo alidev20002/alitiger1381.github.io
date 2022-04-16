@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  	/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+
+
+
+	<script>
+		$(function(){
+
+  			// jQuery methods go here...
+  			$(window).scroll(function() {
+			   var wH = $(window).height();
+			   var position = $(this).scrollTop();
+			   if (position > ($('.col').offset().top+$('.col').outerHeight()) - wH){
+			       $('.col').show();
+			       $('.col').addClass('anim')
+			   }
+
+			   if (position > ($('.tag1').offset().top+$('.tag1').outerHeight()) - wH){
+			   		$('.tag1').show();
+			        $('.tag1').addClass('anim3')
+			   }
+
+			   if (position > ($('.tag2').offset().top+$('.tag2').outerHeight()) - wH){
+			   		$('.tag2').show();
+			        $('.tag2').addClass('anim3')
+			   }
+
+			   if (position > ($('.tag3').offset().top+$('.tag3').outerHeight()) - wH){
+			   		$('.tag3').show();
+			        $('.tag3').addClass('anim3')
+			   }
+			});
+  			
+
+		});
+	</script>
+	
+	<title>My Website</title>
+</head>
+<body>
+	<div class="section1">
+		<div class="header"> 
+			<div class="logo">MyWebsite</div>
+			<i class="fa fa-bars"></i>
+		</div>
+
+		<div class="welcome anim">
+			<h1>Welcome</h1>
+		</div>
+	</div>
+
+	<div class="section2">
+		<div class="container">
+			<div class="col">
+				<img class="user" src="user1.jpg">
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+			<div class="col">
+				<img class="user" src="user2.jpg">
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+			<div class="col">
+				<img class="user" src="user3.jpg">
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+		</div>
+	</div>
+
+	<div class="section3">
+		<div class="tag1">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<div class="tag2">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<div class="tag3">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+	</div>
+
+	<div class="section4">nvncncn
+		<p class="circle"> </p>
+	</div>
+
+	
+
+</body>
+</html>
